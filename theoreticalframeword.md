@@ -36,7 +36,7 @@ Mobility’s consequences are somewhat understudied, traditionally, authors have
 
 Part of this effect could be explained by Sørensen’s (1975) argument that “structures of inequality” differ within and between firms; wages and conditions vary less with the same firm than they do between firms. However, in this explanation, internal mobility should reward workers less than external mobility on every outcome. Yet, mobility types have separate effects on subjective and objective outcomes, a feature that is not considered by the “structures of inequality” approach. Articles exploring the consequences of external mobility are summarised below.
 
-## External mobility
+### External mobility
 
 Generally, authors find a positive relationship between external mobility and outcomes. Whether these are subjective (Sallaz 2017; Kalleberg and Mastekaasa 2001) or objective (Kronberg 2013; Kronberg 2014; Cha 2014; Reichelt and Abraham 2017), workers who quit tend to move to favourable positions; even when remaining in a similar occupation (Le Grand and Tåhlin 2002). Although some workers lose out in outcomes after a move, these are generally presented as forms of bargaining or compromises for gains in other outcomes. For example, voluntary downward mobility in the US leads workers to lower paying positions with greater opportunities or greater conditions (Sallaz 2017; Dwyer 2004).
 
@@ -50,7 +50,7 @@ None of the authors above consider internal mobility or promotions, and so they 
 
 One of the key reasons for focusing on external mobility alone is related to data. Both Fuller (2008) and Keith and McWilliams (1995) sample young workers from the National Longitudinal Survey of Youth, where mobility is defined as a split with the firm for family, involuntary, and “other” reasons. None of these categories consider voluntary internal mobility . In Germany too, certain mobility captured by the German Socio-Economic Panel may be flawed (Kattenbach et al. 2014), forcing Reichelt and Abraham (2017) to use alternative data, and Schmelzer (2010) to drop internal mobility entirely. Thus, finding data on internal promotions and external job quits is a challenge for authors. Further, when internal promotions are included, significant differences begin to emerge among outcomes.
 
-## Internal and external mobility patterns
+### Internal and external mobility patterns
 
 Studies exploring the consequences of quits and promotions are rare, mostly due to data limitations. The consequences of internal and external mobility break with the theories above in three important ways. First, internal transitions are associated with a mix of positive and negative consequences. For example, workers who move to objectively better positions, can also experience subjectively worse conditions in other measures (Lup 2017, rigotti. 2007). Second, internal promotions often yield significantly different results when compared to external quits for a range of outcomes. Lastly, different mobility types have different effects on subjective and objective outcomes, suggesting quits and promotions are motivated by different goals or strategies. In short, the effects of internal and external mobility are not as clear as those presented by Sørensen (1975). If workers want to improve certain outcomes, like pay, which strategy should they pursue, and what is the return to each?
 
