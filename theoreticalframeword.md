@@ -1,4 +1,4 @@
-# Job Mobility and Firms: New Mechanisms for Improving Outcomes?
+# Job Mobility and Firms: Mechanisms for Improving Outcomes?
 July 23, 2018
 
 ## Abstract
