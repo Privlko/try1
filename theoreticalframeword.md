@@ -18,7 +18,7 @@ Three distinct findings are also offered. First, mobility is common; the majorit
 
 The article is structured as follows; section one summarises the theoretical literature, and introduces a framework. Section two summarises the empirical work on external and internal mobility, and their relationship to outcomes. Section three presents the methodology and the approach, while section four lists the results. A discussion concludes.
 
-## Theoretical Framework
+## Theoretical framework
 
 Sociologists conceptualise the labour market as a series of hierarchies which contain positions (Kalleberg & Mouw 2018; Aage B Sørensen 1977; Aage B Sørensen 1975;). These can be tall or flat (DiPrete et al. 1997), segmented or porous (Acker 2006; Mills and Blossfeld 2006), or firm-based or occupation-based (Althauser 1989; Althauser and Kalleberg 1981). Each position in a hierarchy contains its own economic, social, and psychological rewards specific to that position, and desirable positions are placed at the top of a hierarchy. Workers try to reach desired positions over the course of a “career”, which is itself a series of positions (Kalleberg and Mouw 2018, Tahlin Le Grand). This literature holds a key assumption; the best way to improve work-related outcomes is by moving between positions (Rosenfeld 1992; Aage B Sørensen 1977).
 
@@ -26,7 +26,7 @@ The assumption that mobility occurs only because it is of interest to workers, i
  
 Non of the theories above differentiate between internal and external mobility. Each author only suggests a relationship between a given position and the subsequent position; the channels and mechanisms which are taken to secure the second position are irrelevant. Thus, many of the theories above can easily apply to internal promotions as well as external job quits. Despite this, the discussion around job mobility has focused heavily on external mobility to new employers. Whats more, of the few papers which have compare internal and external mobility types, most resemble separate mechanisms for improving separate outcomes, a conclusion that is often missing from job mobility literature. 
 
-## Voluntary Mobility to “Better” Positions
+## Voluntary mobility to “better” positions
 
 Mobility’s consequences are somewhat understudied. Traditionally, authors have focused more on predicting mobility than studying its effects (Fuller 2008; Pavlopoulos et al. 2007; Le Grand and Tåhlin 2002). A limitation in existing studies is the strong focus on external mobility alone. In order to highlight this, we split the literature in two camps; first, studies where authors estimate the impact of external quits to a new employer alone; second, studies which compare and contrast the consequences of internal and external mobility. The review shows that studies which estimate the effect of quitting, frame quits as mechanisms for improving outcomes. However, these studies assume that internal mobility has no effect on workers, treating them as no different than years where workers remain in the same job with the same employer. Studies which compare and contrast the impact of internal and external mobility hold different conclusions. Here, internal and external mobility yield different outcomes for workers which suggests they make compromises by choosing one form of voluntary mobility over another (Kalleberg and Mastekaasa 2001; Gesthuizen and Dagevos 2008; Dwyer 2004). Routinely, external exits lead to higher subjective outcomes than promotions. 
 
