@@ -1,8 +1,26 @@
 # Quits and Ladders: Mechanisms for Improving Outcomes?
 July 23, 2018
 
-## Abstract
-This study compares the consequences of internal and external job mobility. Previous studies have overwhelmingly focused on the effects quitting, without comparing such mobility to promotions. This omission gives an incomplete picture of mobility.  We argue that quits and promotions have distinctly different consequences for the core workforce, despite both mobility types being labelled “voluntary”. Fixed effects regression analysis of the British Household Panel Survey (2000-2008) provides two important findings. First, external quits bring subjective satisfaction with work and working conditions, but have no effect on earnings growth. Second, internal promotions yield earnings growth but small effects on subjective satisfaction. The article helps to understand the process of inequality in earnings and working conditions; core workers who are able to pursue promotion are rewarded objectively, while workers who quit for a new employer seek better working conditions and working hours. The findings shed light on recent debates over what drives "voluntary" mobility; internal mobility may be driven by "skill acquisition", while external mobility may act as a "sorting mechanism" for conditions and job fit. 
+#### Purpose: 
+
+This study compares internal and external job mobility as mechanisms for improving outcomes.
+
+#### Design/methodology/approach: 
+
+The article uses the British Household Panel Survey. It estimates the effects of quits and promotions using linear fixed-effects methods for the core workforce. 
+
+#### Findings: 
+
+Quits and promotions are distinctly different mechanisms for improving outcomes. External quits improve subjective outcomes, but have no effect on earnings growth. Internal promotions bring earnings growth but have smaller effects on subjective outcomes. The findings shed light on recent debates over what drives "voluntary" mobility; internal mobility may be driven by "skill acquisition", while external mobility may act as a "sorting mechanism" for conditions and job fit.
+
+#### Practical implications:
+
+The promises of highly mobile labour markets should be treated with scepticism. The growth of “boundaryless careers” may act as a release valve for poor working conditions and poor job-fit.
+
+#### Originality/value:
+
+Previous studies have overwhelmingly focused on the effects quitting, without explicitly comparing such mobility to promotions. This omission gives an incomplete picture of mobility. The article argues that quits and promotions have distinctly different consequences for core workers, despite both mobility types being labelled “voluntary”. It helps to understand the process of inequality in earnings and working conditions; core workers who are able to pursue promotion are rewarded objectively, while workers who quit for a new employer seek a better job fit. 
+
 
 ## Introduction
 
@@ -60,7 +78,7 @@ Internal promotions, on their own, do not yield overall better workplace outcome
 
 The results above are mixed; but overall, papers challenge the idea that job mobility is a utilitarian process, which brings workers to “better” positions. There is a lack of studies which consider the impact of both quits and promotions. There is also a lack of studies using outcomes other than pay, which may inform the interests workers have in quitting and seeking promotions. Part of the bargaining in the papers above may force workers to choose between two mechanisms, their wider networks in the external market, or career ladders inside the firm. With this in mind, we propose three hypotheses:
 
-### Hypothesis 1: Voluntary mobility will improve outcomes
-### Hypothesis 2: Internal mobility and external mobility will yield significantly different effects on outcomes
-### Hypothesis 3: Subjective and objective outcomes will be affected differently by different mobility types
+##### Hypothesis 1: Voluntary mobility will improve outcomes
+##### Hypothesis 2: Internal mobility and external mobility will yield significantly different effects on outcomes
+##### Hypothesis 3: Subjective and objective outcomes will be affected differently by different mobility types
 
