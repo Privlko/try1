@@ -1,4 +1,3 @@
-
 ---
 title: "Satisfied Movers Revisited"
 author:
@@ -6,7 +5,7 @@ author:
   name: Ivan Privalko
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 
-abstract: "This study examines the consequences of internal and external job mobility  on earnings growth and working conditions, asking 'what do workers get from mobility?'  Sociologists see voluntary job mobility as life-chances, where quits and promotions  are opportunities to move to 'better' jobs. Earlier theories are even  prone to conflating promotions and quits, seeing both as mechanisms which benefit workers.  This article challenges the assumption that voluntary mobility is inherently good, and argues that both quits and promotions are distinctly different and contain separate consequences. Fixed effects regression analysis of the British Household Panel Survey  (2000-2008) suggests external quits bring subjective satisfaction with work and  working conditions, but have no effect on earnings growth. Internal promotions yield  significantly smaller effects on subjective satisfaction, but bring earnings growth. The article helps to understand the process of earnings inequality; workers who are able to pursue promotion are rewarded, while workers who quit are not. Quits may be driven by job mismatch or the desire to leave poor working conditions."
+abstract: "See below"
 
 output:
   word_document: 
@@ -25,7 +24,6 @@ spacing: double
 bibliography: C:/Users/Ivan/Dropbox/Biblio/bibblio.bib
 biblio-style: apsr
 ---
-
 
 # Quits and Ladders: Mechanisms for Improving Outcomes?
 
@@ -167,9 +165,7 @@ It’s worth briefly considering a second explanation. Sørensen (1977) suggests
 
 ### Mobility and objective outcomes
 
-The results of three fixed-effects regression models are listed below. Here, we focus on three subjective outcomes; satisfaction with work (1), satisfaction with pay (2), and satisfaction with hours (3). For clarity, we omit the estimates for “other” mobility types, which are controlled for, but are not relevant to our wider argument. Specifically, we are interested in whether quits and promotions have significantly different effects on these outcomes (hypothesis 1), and whether quits have a stronger effect than promotions (hypothesis 2).
-
-The models in Table 3 are similar to those in Table 2, but estimate the effect of mobility on weekly hours worked (1) and log wages (2). Since mobility has a significant effect on both outcomes, we run the model for wages a second time, controlling for weekly hours worked. The results vary drastically from the previous estimates, and suggest internal mobility has the strongest effect on workers.  
+The models in Table 3 are similar to those in Table 2, but estimate the effect of mobility on weekly hours worked (1) and log wages (2). Since mobility has a significant effect on both outcomes, we run the model for wages a second time, controlling for weekly hours worked. As before, we are interested in whether quits and promotions have significantly different effects on both outcomes (hypothesis 1), and whether promotions have a stronger effect than quits (hypothesis 3).
 
 [TABLE 3 HERE]
 
