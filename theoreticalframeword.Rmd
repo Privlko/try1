@@ -165,13 +165,13 @@ It’s worth briefly considering a second explanation. Sørensen (1977) suggests
 
 ### Mobility and objective outcomes
 
-The models in Table 3 are similar to those in Table 2, but estimate the effect of mobility on weekly hours worked (1) and log wages (2). Since mobility has a significant effect on both outcomes, we run the model for wages a second time, controlling for weekly hours worked. As before, we are interested in whether quits and promotions have significantly different effects on both outcomes (hypothesis 1), and whether promotions have a stronger effect than quits (hypothesis 3).
+The models in Table 3 are similar to those in Table 2, they estimate the effect of mobility on weekly hours worked (1) and log wages (2). Since mobility has a significant effect on both outcomes, we run the model for wages a second time, controlling for weekly hours worked (model 3). As before, we are interested in whether quits and promotions have significantly different effects on both outcomes (hypothesis 1), and whether promotions have a stronger effect on outcomes than than quits (hypothesis 3).
 
 [TABLE 3 HERE]
 
-The effects of voluntary mobility are less clear than before. Voluntary mobility appears to have an effect on hours and pay, but only under certain circumstances. Internal mobility has the largest premium on pay without the corresponding rise in hours. External mobility has a positive effect on pay, but also has a corresponding effect on hours. While one mobility type rewards workers with higher pay, the other is a bargain over working time.
+The effect of voluntary mobility is less clear than before. Voluntarily changing jobs has an effect on hours and pay, but only under certain conditions. Internal mobility has the largest premium on pay without the corresponding rise in hours. External mobility has a positive effect on pay, but also has a corresponding effect on hours. While one mobility type rewards workers with higher pay, the other is a bargain over working time. We elaborate on this point below.
 
-Starting with weekly working hours; voluntary mobility has mixed effects on hours. External mobility leads workers to positions with longer hours (model 1), and internal mobility leads workers to positions with fewer hours. External mobility may stem from bargains over working time or movement to a full-time position.   
+Starting with weekly working hours; voluntary mobility has mixed effects on hours. Quitting leads workers to positions with longer hours (model 1), and internal mobility leads workers to positions with fewer hours. External mobility may stem from bargains over working time or movement to a full-time position.   
 
 Considering gross monthly pay (model 2), voluntary mobility has only a minor effect. Those who change positions voluntarily (within or between firms) gain a 1% increase in pay. There is no difference between internal and external mobility. Although an increase in pay exists, workers may need to pursue several new positions over the course of a career before seeing a substantial change in pay. 
 
