@@ -25,7 +25,7 @@ bibliography: C:/Users/Ivan/Dropbox/Biblio/bibblio.bib
 biblio-style: apsr
 ---
 
-# Quits and Ladders: Mechanisms for Improving Outcomes?
+# Quits and ladders: Does mobility improve outcomes?
 
 July 23, 2018
 
