@@ -3,7 +3,7 @@ title: "Quits and ladders: Does mobility improve outcomes?"
 author:
 - affiliation: Maynooth University
   name: Ivan Privalko
-date: `r format(Sys.time(), '%B %d, %Y')`
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 
 abstract: "See below"
 
