@@ -1,9 +1,9 @@
 ---
-title: "Quits and ladders: Does job mobility improve outcomes?"
+title: "Quits and ladders: Does mobility improve outcomes?"
 author:
 - affiliation: Maynooth University
   name: Ivan Privalko
-date: "`r format(Sys.time(), '%B %d, %Y')`"
+date: `r format(Sys.time(), '%B %d, %Y')`
 
 abstract: "See below"
 
@@ -18,8 +18,8 @@ output:
 
 fontfamily: mathpazo
 fontsize: 11pt
-geometry: margin=1in
-keywords: exit, loyalty, job mobility
+geometry: margin=3in
+keywords: job mobility, career ladders, careers, panel data
 spacing: double
 bibliography: C:/Users/Ivan/Dropbox/Biblio/bibblio.bib
 biblio-style: apsr
@@ -52,17 +52,17 @@ Studies have overwhelmingly focused on the effects quitting, without explicitly 
 
 ## Introduction
 
-Job mobility is an important concept in earnings inequality research. A central assumption in the field states voluntary mobility is pushed by the promise of "better" positions elsewhere (Gesthuizen 2009; Le Grand and Tåhlin 2002; Kalleberg and Mastekaasa 2001). This assumption can be found in both the *job-match* and *job-search* approach to mobility types; both are widely used in labour market inequality research (Schmelzer 2016; Jovanovich 1979; Sorensen 197x; Burdett 197x). However, empirical studies of voluntary mobility tend to focus on external mobility alone, ignoring the effects of promotion (Le Grand Tahlin; Kalleberg and Maastekaasa). In these studies authors treat promotions as a form of *immobility*, this approach offers an incomplete picture of mobility types.
+1. Job mobility is an important concept in earnings inequality research. A central assumption in the topic states voluntary mobility stems from the promise of "better" positions elsewhere (Gesthuizen 2009; Le Grand and Tåhlin 2002; Kalleberg and Mastekaasa 2001). This assumption is found in both *job-match* and *job-search* theories of mobility, as well as several sociological theories, widely cited in labour market inequality research (Schmelzer 2016; Jovanovich 1979; Sorensen 197x; Burdett 197x). These theories can easily apply to internal promotions as well as external quits. Despite this, empirical studies tend to focus on external mobility, ignoring the effects of promotions (Le Grand Tahlin; Kalleberg and Maastekaasa). This offers an incomplete picture of mobility types.
 
-The topic of job mobility is underdeveloped in two ways. First, researchers have tended to focus more on the likelihood of mobility than on its consequences (Steenackers 2016; Hachen Jr 1990; Hachen Jr 1992). Second, when exploring the consequences of mobility, authors focus on the impact of quits, and ignore the impact of promotions (Kronberg 2013; Kronberg 2014; Ruiz 2004).
+2. The topic of job mobility is underdeveloped in two ways. First, researchers have tended to focus more on the likelihood of mobility than on its consequences (Steenackers 2016; Hachen Jr 1990; Hachen Jr 1992). Second, when exploring the consequences of mobility, authors focus on the impact of quits and ignore the impact of promotions (Kronberg 2013; Kronberg 2014; Ruiz 2004).
 
-This article compares the effects of internal and external job mobility for the core workforce. Do these mobility types have similar effects, do they carry similar rewards for workers? Beyond this, we estimate mobility's impact on subjective and objective outcomes, in an effort to capture its effects on earnings-growth and job-fit. This approach is informed by recent debates regarding the motivations behind job mobility (Kalleberg and Maou 2018; Steenackers 2016). Is mobility used to correct the "fit" between an employee and her working conditions, or is mobility used to correct earnings?
+3. The aim of this article is two-fold. First, we compare the effects of internal and external job mobility for the core workforce. Do these mobility types have similar effects and do they carry similar rewards for workers? Second, we estimate mobility's impact on subjective and objective outcomes. Comparing and contrasting the effects of quits and promotions on subjective and objective outcomes informs recent debates over the motivations behind job mobility (Kalleberg and Maou 2018; Steenackers 2016). Is mobility used to correct the "fit" between an employee and her working conditions, or is it used to correct earnings growth trajectories?
 
-We use the British Household Panel Survey as a representative sample of British workers. Our approach has three strengths. First, we use explicit measures of quits and promotions. A review of the literature shows, authors often sample and operationalise mobile workers in complex ways some of which may not be valid (Steenacker 2016; Kalleberg and Mastekaasa; Keith and Williams). Second, we consider outcomes other than objective pay. By including subjective outcomes we capture trade-offs made by workers who change jobs within and between firms (Latzke et al 2012; Dwyer 2004; Kalleberg and Mastekaasa 2001). Third, we accept recent suggestions and use longitudinal data. In this way we explore the effects of moving positions rather than comparing movers to non-movers (Reichelt and Abraham 2017; Cha 2014; Ruiz 2004). 
+4. We use the British Household Panel Survey as a representative sample of British workers. Our approach has three strengths. First, we use explicit measures of quits and promotions. A review of the literature shows that authors often sample and operationalise mobile workers in complex ways, some of which may be invalid (Steenacker 2016; Kalleberg and Mastekaasa; Keith and Williams). Second, we consider outcomes other than objective pay. By including subjective outcomes, we capture bargains made by workers who move within or between firms (Latzke et al 2012; Dwyer 2004; Kalleberg and Mastekaasa 2001). Third, we accept recent suggestions and use longitudinal data. In this way we explore the effects of moving positions rather than comparing movers to non-movers (Reichelt and Abraham 2017; Cha 2014; Ruiz 2004). 
 
-Two findings are offered. First, voluntary mobility is common; quits and promotions are equally likely and are the dominant form of mobility among core workers. Second, internal and external mobility are distinctly different mechanisms with separate effects on outcomes. Internal mobility has the strongest effect on earnings growth, while external mobility has the strongest effect on subjective feelings about work. Crucially, there is no evidence that quits can act as a substitute for promotions. Instead, British workers may be using external mobility to correct job-fit, instead of attainment as it is described in the literature. In this way, “exit strategies” improve feelings about work; while “loyalty strategies” move workers' careers forward (Hirschman 1982).
+5. Two findings are offered. First, voluntary mobility is common; quits and promotions are equally likely and are the dominant form of mobility among core workers. Second, internal and external mobility are distinctly different mechanisms with separate effects on outcomes. Internal mobility has the strongest effect on earnings growth, while external mobility has the strongest effect on subjective feelings about work. Crucially, there is no evidence that quits act as a substitute for promotions. Instead, British workers may be using external mobility to correct job-fit, instead of attainment as it is described in the literature. In this way, “exit strategies” improve feelings about work; while “loyalty strategies” move a worker's career forward (Hirschman 1982).
 
-The article is structured as follows; section one summarises the theoretical literature, and introduces a key assumption. Section two summarises the empirical literature and introduces three hypotheses. Section three presents our methodology and approach, while section four presents our results. A brief discussion concludes.
+6. The article is structured as follows; section one summarises the theoretical literature, and introduces a key assumption. Section two summarises the empirical literature and introduces three hypotheses. Section three presents our methodology and approach, while section four presents our results. A brief discussion concludes.
 
 ## Theoretical framework
 
