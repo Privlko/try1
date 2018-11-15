@@ -48,4 +48,15 @@ Third, the suggested articles seem mostly unconcerned with the relationship betw
 
 * This point is noted. However, my own literature review notes several studies where internal and external mobility lead workers to different results, including Gesthuizen 2009 within the International Journal of Manpower, and Tahlin. R3 cites Jackofsky and L. Peters (1983) when making the point. However, this article focused on the impact of satisfaction on internal and external mobility. It is true that dissatisfaction had a stronger effect on internal mobility; however this is not the point of the current paper. What is more the article makes the assumption "xxxx" which only highlights the importance of my approach in Q&L. Mobley makes an interesting set of observations regarding intention to quit and the cost of quitting, however the approach of the paper is satisfactions' effect on quitting, not the potential effects of quitting on satisfaction. Both the job-matching and job-searching apporaches make explicit predictions about the effects of quitting and promotions. R3 notes the importance of "desire for change" and "opportunity for change". These concepts are important in their own field, but may be less applicable here. 
 
-* 
+* This point is noted, I include a brief discussion of involuntary or forced mobility.
+
+* R3 suggests there are several articles which consider the consequences of mobility, but does not include these. They take exception with hypothesis 2. Internal and external mobility will yield different effects on satsifaction and earnings. I cite the work of Tahlin, Gesthuizen, and Pavlopoulos when offering the hypothesis, all such works have found a similar result and have questioned why types of ombility bring about different effects. R3 cites Carnicer, Sanchez, Perez and Jimenez; a paper tha argues that subjective feelings about work are strong predictors of internal mobility. Further, the study is cross-sectional which suggests the authors explore satsifaction as a predictor of movers and non-movers. This paper does not consider the consequences of mobility, and so I find R3's issues slightly confusing.
+
+* This point is noted and accepted, I take greater care in justifying the methodology.
+
+* This point is also accepted, a hausmann test is included which justifies the use of fixed-effects estimation.
+
+* I accept the point regarding practical implications, I expand this section. 
+
+* The point on language is noted; parts of the article have been toned down to accommodate R3.
+
