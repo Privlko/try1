@@ -1,4 +1,5 @@
 # Review notes
+I'd like to make two brief comments before addressing reviewers. 
 
 Firstly, thank you for reading my paper and sending it out for review. Please also thank the three reviewers who read and commented on the work. Their suggestions have improved the paper, and they have given me a lot to consider regarding the wider job-mobility debates. 
 
