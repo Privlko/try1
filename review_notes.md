@@ -28,7 +28,7 @@ R1 seems mostly concerned with the methodology. The overall argument of Quits an
 
 * I have rewritten key sections of the paper to include a reference to earnings and conditions or job-fit.
 
-* This is a legitimate concern. I briefly consider the importance of ordinal regression. Since the output is similar, I committ to linear regression, which is used also for working time and gross pay.
+* This is a legitimate concern. I briefly consider the importance of conditional logistic regression (stata command clogit). Since the output is similar, I committ to linear regression, which is used also for working time and gross pay.
 
 
 ## Reviewer 2: 
