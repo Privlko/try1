@@ -60,9 +60,15 @@ Second, all of the suggested papers consider the importance of push-factors on m
 
 Third, the suggested articles seem unconcerned with the relationship between mobility and satisfaction. In fact, several authors use satisfaction as a proxy for "desireability to move". In contrast, both job-match and job-search approaches specifically outline a link between earnigns and mobility, and job-fit and mobility. In these works, I think that satisfaction holds a more meaningful predictive power, where more specific relationships can be hypothesised. This is especially true with the reservation wage concept, found in the job-search approach. Nonetheless, some faults noted by R3 warrant attention. I now turn to these.
 
+* *The article presents a novelty in the study of the impact of external and internal mobility on results. However, it is difficult to agree with the hypotheses put forward by the author. For example, the second hypothesis - there is a number of studies indicating that internal mobility is sometimes characterized by greater satisfaction than external mobility. And so already E. Jackofsky and L. Peters (1983) also considering the proposed variables in the study of labor mobility by J. Price and Mobley noticed that the employee's movements are important skills corresponding to the performance of specific tasks, his own influence on the direction displacements, a strong conviction of their own effectiveness and a desire for change, which is all the stronger the employee knows about real and alternative new jobs. This model is focused primarily on the individual predispositions of the individual determining its mobility and on processes related to the design of work, using the Hackman and Odhman models. 
+There is little documented relationship between outcomes and mobility. For this, voluntary mobility appears here. The author does not respond to forced mobility. It seems to me that one would have to mention it. The author devotes a bit more attention to other variables than he assumes the title of work - outcomes and mobility.*
+
+* *I consider that the relationship with literature is weak. There is a lot of evidence showing the consequences of mobility and not included in this article. It is pointed out, for example, that there is no difference between internal and external mobility (Carnicer, A. M. Sánchez, M. Pérez Pérez and M.J. V.Jiménez, 2004). In addition, there are a number of articles explaining the phenomenon of mobility and the factors that constitute them (Noe, Steffy, Barber 1988, Jackofsky, Griffeth, Hom Gaertner 2000 and many other items Ng, Feldman). In this article, the literature is included, but not representative for the discussed area. I recommend reaching out to those indicated - starting with March, Simon (1958) and Mobley (1977). There are few indications relating to the relationship between mobility and outcomes.*
+
 * This point is noted. However, my literature review notes several studies where internal and external mobility yields significantly different results, including Gesthuizen 2009 with the International Journal of Manpower, and Tahlin. R3 cites Jackofsky and L. Peters (1983) when making the point. However, this article focused on the significance of satisfaction on models predicting internal and external mobility. It is true that dissatisfaction had a stronger effect on internal mobility; however my paper is more concerned with mobility's effects after the fact. Jackofsky amd Peters seem uninterested in the question and even make the following assumption *“It is reasonable to believe that intra- and interorganizational movement are similar with regard to their impact on individuals”*. This is the exact point my article tries to challenge. 
 
 * Mobley makes an interesting set of observations regarding intention to quit and the cost of quitting. However the same pitfall emerges; the approach of the paper is satisfactions' effect on quitting, not the potential effects of quitting on satisfaction. R3 notes the importance of "desire for change" and "opportunity for change". These concepts are important in their own field, but may be less applicable to theoretical models which try to learn about the effects of quitting. 
+
 
 * Ng's work features in the original submission.
 
@@ -70,11 +76,19 @@ Third, the suggested articles seem unconcerned with the relationship between mob
 
 * R3 suggests there are several articles which consider the consequences of mobility, but does not include these. R3 also takes exception with hypothesis 2. Internal and external mobility will yield different effects on satsifaction and earnings. I cite the work of Tahlin, Gesthuizen, and Pavlopoulos when offering the hypothesis, all such works have found a similar result and have questioned why types of ombility bring about different effects. R3 cites Carnicer, Sanchez, Perez and Jimenez; a paper that argues that subjective feelings about work are strong predictors of internal mobility. Further, the study is cross-sectional which suggests the authors explore satsifaction as a predictor of movers and non-movers. This paper does not consider the consequences of mobility, and so I find R3's issues slightly confusing.
 
+* *The methodology is correct. Well described, but there is no justification for this choice. I think that this part should also be extended. Why was this method chosen and not another one? *
+
 * This point is noted and accepted, I take greater care in justifying the methodology.
+
+* *This part of the work is at a good level. However, the statistics are at the basic level, there is no statistical justification for the results obtained. *
 
 * This point is also accepted, a hausmann test is included which justifies the use of fixed-effects estimation.
 
+* *In my opinion, there is a lack of strong practical implications. The ones that the author contains are basic, they do not bring anything new, they are obvious. Although there is a connection between the theory contained by the author (albeit poor) and own conclusions and implications. *
+
 * I accept the point regarding practical implications, I expand this section. 
+
+* *The language is correct and clear, made on the clarity of the article, I do not know the jargon, the author probably sure of himself right - sometimes all too confident*
 
 * The point on language is noted; parts of the article have been toned down to accommodate R3.
 
