@@ -10,23 +10,37 @@ In the next section, I comment on the issues raised and outline how the original
 
 ## Reviewer 1:
 
-R1 seems mostly concerned with the methodology. The overall argument of Quits and Ladders appears to be accepted. However, the concerns raised are legitimate and warrant attention:
+R1 accepts the general argument of the article but is concerned with the methodology.  These are legitimate and warrant attention:
 
-* I review the methodology to reflect this comment. In my opinion, at least some limitations of FE estimation should be considered. I am happy to remove these at the request of the editor. The fact that ommitted variable bias is an issue for most forms of estimation seems to me unimportant, the methodology is focused on linear FE specifically. 
+* *Page 15: discussion of the methodology is highly problematic. For example, the claim that “This is especially true for fixed-effects linear estimation which is susceptible to “omitted variable bias”” is not only for fixed-effects estimation but a general criticism of most regression models.*
 
-*  Fixed-effects estimation is only robust to ommitted variable bias if the variable is time-constant, as both myself and reviewer 2 note. Time variant ommitted variables can lead to biased estimates, especially when these correlate with a theoretically important predictor (like job mobility); I note this throughout the article but have decided emphasise it in the updated version.
+** I review the methodology to reflect this comment. In my opinion, at least some limitations of FE estimation should be considered. I am happy to remove these at the request of the editor. The fact that ommitted variable bias is an issue for most forms of estimation seems to me unimportant, the methodology is focused on linear FE specifically. 
 
-* I accept this point. I update the paper to include the results of 6 hausmann tests; these show a correlation in between-within effects for several estimates. The results rule-out unbiased estimates using random-effects modelling, and confirm the need for a different approach. The use of fixed-effects estimation is therefore justified.
+* *Besides, fixed-effects approach is robust to “omitted variable bias” as long as the excluded variables are observed and time-invariant and can be differenced out. This is also acknowledged later by the authors (see page 16, section 4.3, and again citing Wooldridge).*
 
-* An additional table of estimates is now included, listing the full output. It may be included as an appendix.
+**  Fixed-effects estimation is only robust to ommitted variable bias if the variable is time-constant, as both myself and reviewer 2 note. Time variant ommitted variables can lead to biased estimates, especially when these correlate with a theoretically important predictor (like job mobility); I have decided to emphasise the point in the updated version.
 
-* An additional table is added, it includes the descriptive statistics of each measure. 
+* *Page 17 discusses of the fixed-effects approach but no reference is made to alternative panel data modeling strategy (e.g. random effects and GMM) and why they’re not considered.*
 
-* *"How can country level variables survive a within transformation in a fixed-effects model when they don’t vary across individuals in a given survey year"* These measures were added because they vary within individual-level clusters over time. Hence they capture the average, person-specific, change which comes with changes in unemployment and growth. It is precisely because they don't vary accross individuals that they are included. Gesthuizen 2009 makes a similar decision writing in the International Journal of Manpower.
+** I accept this point. I update the paper to include a brief discussion over fixed and random effects regression. I also list the results of 2 hausmann tests; these show a correlation in between-within effects for several estimates. The results rule-out unbiased estimates using random-effects modelling, and confirm the need for a different approach. I think this justifies the use of fixed-effects estimation.
 
-* This is a legitimate concern. The basic answer is that these outcomes often appear in articles exploring the effects of mobility. 
+* *The main results reported are also hard to evaluate because the authors do not disclose the full set of results. Both Tables 2 and 3 include additional covariates which are not reported in the paper -- “control for general job satisfaction in each model (except for the model estimating satisfaction with work). Two macro variables; the unemployment rate and the rate of economic growth are also included”. This is particularly problematic because even Table 1 (descriptive stats) do not describe these variables and their exact measure/definition. *
 
-* I have rewritten key sections of the paper to include a reference to earnings and conditions or job-fit.
+** I ainclude another table listing the full output. It could be included as an appendix.
+
+* *The model specification is also highly questionable – as described on pages 15-16, “Lastly, the survey year, the country’s unemployment rate, and the rate of economic growth are included in an effort to control for macro changes which may affect wages and subjective evaluations of work”. How can country level variables survive a within transformation in a fixed-effects model when they don’t vary across individuals in a given survey year? *
+
+** I simplify the model and remove these controls.
+
+* *The choice of outcome variables are not justified. What’s the full range of labor market and employment related outcomes in BHPS? Which were discarded and why? *
+
+** This is a legitimate concern. The basic answer is that these outcomes often appear in articles exploring the effects of mobility. I have rewritten key sections of the paper to include a reference to earnings and conditions or job-fit.
+
+* *The paper’s title is unclear: “Does mobility improve outcomes?” It should have been clarified what outcomes are being studied in the paper. The findings (abstract) also refer to “subjective outcomes” which is very vague. Most importantly the main results tables (2 and 3 – see page 29) also refer to objective and subjective outcomes. Only after careful inspection the dependent variables could be identified as (satisfaction with 3 dimensions of job and 3 observed characteristics of the job (pay, work hours etc)).*
+
+** I update the paper and reference earnings growth and job fit throughout.
+
+* *Table 2 involves dependent variables that are measured using likert scale. But no explanation is provided for using a linear specification – why not use regression models that allow for ordering in the values of the dependent variable? This issue should have been at least acknowledged by the authors*
 
 * This is a legitimate concern. I briefly consider the importance of conditional logistic regression (stata command clogit). Since the output is similar, I committ to linear regression, which is used also for working time and gross pay.
 
