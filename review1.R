@@ -12,6 +12,7 @@ library(gtools)
 # Read Stata data into R
 mydata <- read.dta13("C:/Users/Ivan/Desktop/dir/papers/try1/tempdataspot/methodsection.dta") 
 
+
 View(mydata)
 
 mydata$M_event <-   factor(mydata$M_event)
@@ -53,12 +54,7 @@ mydata <- mydata %>%
 mydata$perm <-   factor(mydata$perm)
 mydata$wave <-   factor(mydata$wave)
 
-mydata %>% 
-  mutate(z1= sd(jbsat2, na.rm = TRUE)) %>%
-  select(jbsat2, z1) %>% 
-  head()
 
-?sd()
 mydata %>% 
   count(M_event)
 
@@ -75,6 +71,7 @@ mydata %>%
 mydata %>% 
   count(wave)
 
+write_csv(mydata, 'C:/Users/Ivan/Desktop/dir/data/bhps/mydata.csv')
 
 ##set up the frame
 mydata<- pdata.frame(mydata, index=c("pid","wave"), drop.index=FALSE, row.names=TRUE)
@@ -89,7 +86,7 @@ fixed<- plm(jbsat6~M_event+age+age_sq+
       data = mydata, 
       model = "within")
 
-summary(fixed)
+summary(fixed, digits=2)
 
 random<- plm(jbsat6~M_event+age+age_sq+
               perm+jbsize+nchild+
@@ -186,7 +183,9 @@ m1 <- plm(jbsat6~M_event+age+age_sq+
               factor(isco10)+wave, 
             data = mydata, 
             model = "within")
-summary(m1)
+
+
+summ(m1, digits = 3)
 
 tidy_m1<- tidy(m1) %>% 
   mutate(signif = stars.pval(p.value))
