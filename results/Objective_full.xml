@@ -1,0 +1,615 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ivan Privalko</Author>
+  <LastAuthor>Ivan Privalko</LastAuthor>
+  <Created>2019-01-02T10:50:12Z</Created>
+  <LastSaved>2019-01-02T10:50:12Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12300</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Bold="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders/>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="55" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="219.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57.75" ss:Span="5"/>
+   <Row ss:Index="2" ss:Height="15.75">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Objective earnings; Fixed Effects</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(1)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(2)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(3)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(4)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(5)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">(6)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Log gross monthly wage</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Weekly working hours</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Log gross pay</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">VARIABLES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">LABELS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">coef</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">se</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">coef</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">se</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">coef</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">se</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ln_gross</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ln_gross</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 2, Changed employer- voluntary</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.019**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.515***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.180</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.013*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 3, Changed employer- involuntary</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.063***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.661</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.412</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.052***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.016</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 4, Changed employer- other reason</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.104***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.080***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.293</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.088***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.013</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">5.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 5, Changed job, kept employer- voluntary</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.025***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.080</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.197</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.026***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">6.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 6, Changed job, kept employer- involuntary</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.083*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.049</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.407</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.948</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.078*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.043</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">7.M_event</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mobility event = 7, Changed job, kept employer- other</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.023*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.048</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.308</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.023*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.013</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">age</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">age at date of interview</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.060***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.792***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.186</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.049***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">c.age#c.age</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.001***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.007***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.001***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">1.nchild</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">children in the home = 1, one</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.059***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.010</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.956***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.223</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.032***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2.nchild</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">children in the home = 2, two</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.101***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-3.055***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.280</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.059***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3.nchild</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">children in the home = 3,  three or more</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.111***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.022</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-3.777***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.462</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.057***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">1.permanent</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Job contract is permanenet = 1, Permanent</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.092***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.029</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.533***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.573</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.070***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.025</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">jbsize1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">RECODE of jbsize (no. employed at workplace: current job  )</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.025***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.009</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.111</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.025***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 2, professionals</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.053***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.013</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.594**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.282</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.045***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 3, technicians and associate professionals</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.078***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.011</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.899***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.246</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.066***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.010</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 4, clerical support workers</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.112***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.196***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.287</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.095***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">5.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 5, services and sales workers</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.158***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.019</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.380***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.382</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.140***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.018</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">6.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 6, skilled agriculture</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.080*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.043</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.761</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.420</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.101***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.038</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">7.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 7, craft and related work</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.059***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.016</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.396</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.325</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.054***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.015</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 8, plant and machinery workers</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.065***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.243</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.380</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.068***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">9.isco10</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 digit occupations = 9, elmentary work</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.167***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.019</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.228***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.421</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.150***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">1.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 1, Agriculture    1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.011</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.035</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.554</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.818</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.032</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">2.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 2, Energy         2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.091***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.034</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.372</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.580</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.086**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.039</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">3.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 3, Mining         3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.025</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.052</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.970</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.960</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.011</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">4.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 4, Manufacturing  4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.015</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.011</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.308</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.008</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">5.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 5, Construction   5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.036</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.024</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.172</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.413</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.033</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">6.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 6, Trade          6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.039**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.016</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.626*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.327</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.031**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">7.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 7, Transport      7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.005</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.018</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.169</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.413</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">8.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 8, Bank/Insurance 8</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.023</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.132</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.466</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.019</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">9.e11106</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1 Digit Industry Code of Individual = 9, Services       9</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.158</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.244</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.015</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.011</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">11.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 11</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.061***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.010</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.217</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.235</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.064***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">12.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 12</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.116***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.017</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.565</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.366</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.123***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.016</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">13.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 13</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.161***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.024</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-0.857</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.521</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.173***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">14.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 14</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.215***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.031</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.217*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.689</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.232***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.029</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">15.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 15</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.269***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.038</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.318</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.842</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.286***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.036</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">16.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.312***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.045</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.639</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.334***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.042</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">17.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 17</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.354***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.052</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-1.975*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.173</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.380***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">18.wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">wave = 18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.393***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.059</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-2.392*</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1.333</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.425***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.056</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Constant</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Constant</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5.946***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.289</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">15.342**</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">6.457</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">5.727***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.271</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">jbhrs</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">no. of hours normally worked per week</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.014***</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Observations</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26,252</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26,215</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26,215</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">R-squared</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.265</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.023</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">0.339</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Number of pid</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3,724</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3,724</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">3,724</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Wave</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10-18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10-18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">10-18</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Weights</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Clustered SE</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Clustered SE</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Clustered SE</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">*** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">notes</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:ProtectedObjects>False</x:ProtectedObjects>
+   <x:ProtectedScenarios>False</x:ProtectedScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
